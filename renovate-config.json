@@ -18,6 +18,7 @@
     "commitMessageAction": "Update dependencies in lockfile"
   },
   "automergeStrategy": "rebase",
+  "platformAutomerge": true,
   "rangeStrategy": "widen",
   "stabilityDays": 3,
   "labels": ["dependencies"],
