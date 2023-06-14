@@ -38,6 +38,22 @@
       "groupName": "dev dependencies"
     },
     {
+      "extends": [
+        "packages:linters"
+      ],
+      "matchPackageNames": [
+        "flake8",
+        "pylint",
+        "pep8",
+        "ruff",
+        "black",
+        "bandit",
+        "safety",
+        "reuse"
+      ],
+      "automerge": true
+    },
+    {
       "matchLanguages": ["python"],
       "matchPackageNames": [
         "certifi",
