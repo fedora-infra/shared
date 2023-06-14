@@ -15,7 +15,8 @@
     "extends": [
       "group:allNonMajor"
     ],
-    "commitMessageAction": "Update dependencies in lockfile"
+    "commitMessageAction": "Update dependencies in lockfile",
+    "automerge": true
   },
   "automergeStrategy": "rebase",
   "platformAutomerge": true,
