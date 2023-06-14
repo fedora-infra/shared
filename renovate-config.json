@@ -60,6 +60,10 @@
         "pytz"
       ],
       "automerge": true
+    },
+    {
+      "matchManagers": ["pre-commit"],
+      "automerge": true
     }
   ]
 }
