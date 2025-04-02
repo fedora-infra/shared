@@ -1,0 +1,7 @@
+-   id: update-specfile
+    name: Update the specfile
+    description: Update the spec file with the version in pyproject.toml
+    entry: update-specfile
+    language: script
+    types: [text]
+    files: ^pyproject\.toml$

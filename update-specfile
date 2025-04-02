@@ -1,0 +1,4 @@
+#!/bin/bash
+
+version=`poetry version -s`
+sed -i -e 's/^\(Version:\s*\)[^\s]\+$/\1'${version}'/' *.spec
