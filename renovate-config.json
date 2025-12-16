@@ -64,6 +64,16 @@
     {
       "matchManagers": ["pre-commit"],
       "automerge": true
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": [
+        "actions/checkout",
+        "actions/setup-python",
+        "actions/upload-artifact",
+        "actions/download-artifact"
+      ],
+      "automerge": true
     }
   ]
 }
