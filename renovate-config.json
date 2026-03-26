@@ -21,7 +21,7 @@
   "automergeStrategy": "rebase",
   "platformAutomerge": true,
   "rangeStrategy": "widen",
-  "stabilityDays": 3,
+  "minimumReleaseAge": "14 days",
   "labels": ["dependencies"],
   "packageRules": [
     {
